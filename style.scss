@@ -1,0 +1,60 @@
+body {
+  padding: 50px;
+  .container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    .startBTN{
+      display: flex;
+      justify-content: center;
+      button{
+        font-size: 32px;
+        border: none;
+        outline: none;
+        background-color: red;
+        color: yellow;
+        border-radius: 20px;
+        height: 50px;
+        width: 200px;
+        cursor: pointer;
+      }
+    }
+
+    .players{
+      display: flex;
+      justify-content: space-around;
+      padding: 50px;
+      .knightBlock,.bossBlock {
+        text-align: center;
+        .knightImg,.bossImg{
+          img{
+            height: 400px;
+          }
+        }
+      }
+      .controls{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        button{
+          border: none;
+          outline: none;
+          background-color: rgb(255, 0, 0);
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          cursor: pointer;
+          &:hover{
+            background-color: rgb(141, 0, 0);
+          }
+          i{
+            font-size: 32px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+}
+

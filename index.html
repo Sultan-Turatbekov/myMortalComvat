@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/57af563239.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- <div class="column" id="knightStats"></div>
+    <div class="column" id="bossStats"></div>
+    <button class="damageBTN">damage</button>
+    <button class="ultraDamageBTN">Ultra damage</button>
+    <button class="shieldBTN">shield</button>
+    <button class="healBTN">heal</button>
+    <button class="restart">restart</button> -->
+
+    <div class="container">
+      <div class="startBTN">
+        <button>START</button>
+      </div>
+      <div class="players">
+        <div class="knightBlock">
+          <div class="knight" id="knightStats"></div>
+          <div class="knightImg">
+            <img src="https://www.icegif.com/wp-content/uploads/2023/06/icegif-1061.gif" alt="" />
+          </div>
+          <div class="controls">
+            <button class="damageBTN"><i class="fa-solid fa-fire"></i></button>
+            <button class="ultraDamageBTN"><i class="fa-solid fa-dragon"></i></button>
+            <button class="shieldBTN"><i class="fa-solid fa-shield-halved"></i></button>
+            <button class="healBTN"><i class="fa-solid fa-notes-medical"></i></button>
+          </div>
+        </div>
+
+        <div class="bossBlock">
+          <div class="boss" id="bossStats"></div>
+          <div class="bossImg">
+            <img src="https://66.media.tumblr.com/d49c3db1d3fb78a8fc72fd0a7edb6e48/tumblr_n7wrjeB2J81rey868o1_500.gif" alt="" />
+          </div>
+          <div class="controls">
+            <button class="damageBTN"><i class="fa-solid fa-fire"></i></button>
+            <audio id="attackSound" src="./source/audio/dmg.mp3"></audio>
+            <button class="ultraDamageBTN"><i class="fa-solid fa-dragon"></i></button>
+            <audio id="attackSound" src="./source/audio/dmg.mp3"></audio>
+            <button class="shieldBTN"><i class="fa-solid fa-shield-halved"></i></button>
+            <audio id="shieldSound" src="./source/audio/shield.mp3"></audio>
+            <button class="healBTN"><i class="fa-solid fa-notes-medical"></i></button>
+            <audio id="healSound" src="./source/audio/healing_spell_mend_02_16_441.mp3"></audio>
+
+            <audio id="erorSound" src="./source/audio/eror.mp3"></audio>
+            <audio id="winSound" src="./source/audio/fatality.mp3"></audio>
+            <audio id="lostSound" src="./source/audio/loss.mp3"></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
